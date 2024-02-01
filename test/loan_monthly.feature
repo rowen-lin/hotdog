@@ -2,7 +2,7 @@ Feature: LoanMonthlyCalculator
     A tool that help user calculate their repayment amount
 
     Scenario: Calculate repayment amount
-        Given I want to apply for a loan with conditions: 50w / 3year / 1.2% rate / 3000 fee 
+        Given I want to apply for a loan with conditions: 100w / 3year / 1.2%rate / 3000fee 
 
         When I go to the loan monthly calculate page
         And I fill in all the info
