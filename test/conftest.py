@@ -14,7 +14,7 @@ def browser(request):
     parm = request.config.getoption("--browser")
     screen_size = request.config.getoption("--device")
     web_driver = DriverFactory(parm).create_web_driver()
-    url = "https://roo.cash/calculator/loan-monthly-payment"
+    url = "https://staging.roo.cash/calculator/loan-monthly-payment"
     if screen_size == "desktop":
         web_driver.maximize_window()
     elif screen_size == "phone":
